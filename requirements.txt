@@ -4,4 +4,4 @@ matplotlib
 seaborn
 scikit-learn
 jupyterlab
-openpyxl
+catboost

@@ -1,0 +1,9 @@
+services:
+  social_media:
+    build: .
+    container_name: social_media_app
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    working_dir: /app
